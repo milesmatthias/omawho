@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  @email_display_name = "Omawho"
+  @email_display_name = "BLDR.CO"
   address = Mail::Address.new "sumeet@bigwheelbrigade.com"
   
   address.display_name = @email_display_name

@@ -9,16 +9,16 @@ class ApplicationController < ActionController::Base
   # Change these settings to customize Omawho for your locale.
   def application_configuration
     # MOST IMPORTANT SETTING EVER, RIGHT?
-    @site_title = "Omawho"
+    @site_title = "BLDR.CO"
     
     # What location do you serve?
-    @site_location = "Omaha, Nebraska"
+    @site_location = "Boulder, Colorado"
     
     # Optional - Your Twitter handle.
-    @site_twitter = "omawho_ne"
+    # @site_twitter = "omawho_ne"
     
     # This is the URL shared by the Facebook "Like" button.
-    @site_url = "http://omawho.com"
+    @site_url = "http://bldr.co"
   end
   
   def categories_with_users
